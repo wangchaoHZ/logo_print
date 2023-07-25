@@ -26,6 +26,6 @@ if __name__ == "__main__":
 
     # 将字符艺术字转换为C语言的char型数组字符串并输出
     c_array_str = convert_to_c_array(ascii_art)
-    print("const char* ascii_art[] = {")
+    print("const char* ascii_art = {")
     print(c_array_str)
     print("};")
